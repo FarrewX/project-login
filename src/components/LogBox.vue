@@ -110,6 +110,8 @@ export default {
         title: 'รหัสผ่านไม่ตรงกัน',
         footer: 'กรุณาใส่รหัสผ่านอีกครั้ง'
       })
+      this.form.password = '',
+      this.form.password2 = ''
       return;
     }
     
